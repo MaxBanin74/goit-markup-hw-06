@@ -70,7 +70,7 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="header-menu-btn" mobile-menu-open>
+        <button type="button" class="header-menu-btn" data-mobile-menu-open>
           <svg class="header-menu-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger-menu"></use>
           </svg>
@@ -671,9 +671,9 @@
     <!-- #endregion modal-form -->
 
     <!-- #region mobile-menu -->
-    <div class="mobile-menu" mobile-menu>
+    <div class="mobile-menu" data-mobile-menu>
       <div class="container mobile-container">
-        <button type="button" class="close-button" mobile-menu-close>
+        <button type="button" class="close-button" data-mobile-menu-close>
           <svg class="close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
@@ -694,14 +694,16 @@
         <address class="mobile-addr">
           <ul class="mobile-addr-list">
             <li class="mobile-addr-item">
+              <a
+                class="mobile-addr-link mobile-addr-tel"
+                href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-addr-item">
               <a class="mobile-addr-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com
               </a>
-            </li>
-            <li class="mobile-addr-item">
-              <a class="mobile-addr-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
             </li>
           </ul>
         </address>

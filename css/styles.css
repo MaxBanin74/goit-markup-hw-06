@@ -66,13 +66,14 @@ input {
 }
 
 .container {
-  max-width: 288px;
+  max-width: 320px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 736px;
+    max-width: 769px;
   }
 }
 
@@ -345,8 +346,8 @@ input {
   }
 }
 
-@media screen and (max-width: 767px) and (resolution: 2x),
-  screen and (max-width: 767px) and (resolution: 3x) {
+@media screen and (max-width: 767px) and (resolution: 2dppx),
+  screen and (max-width: 767px) and (resolution: 3dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
@@ -357,7 +358,7 @@ input {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 1x) {
+@media screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 1dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
@@ -368,8 +369,8 @@ input {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 2x),
-  screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 3x) {
+@media screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 2dppx),
+  screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 3dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
@@ -380,7 +381,7 @@ input {
   }
 }
 
-@media screen and (min-width: 1158px) and (resolution: 1x) {
+@media screen and (min-width: 1158px) and (resolution: 1dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
@@ -391,8 +392,8 @@ input {
   }
 }
 
-@media screen and (min-width: 1158px) and (resolution: 2x),
-  screen and (min-width: 1158px) and (resolution: 3x) {
+@media screen and (min-width: 1158px) and (resolution: 2dppx),
+  screen and (min-width: 1158px) and (resolution: 3dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
@@ -785,11 +786,9 @@ input {
 }
 
 @media screen and (min-width: 768px) {
-  .page-footer {
+  .footer-container {
     padding-left: 108px;
     padding-right: 108px;
-  }
-  .footer-container {
     column-gap: 24px;
     justify-content: flex-start;
     align-items: baseline;
@@ -817,10 +816,9 @@ input {
 }
 
 @media screen and (min-width: 1158px) {
-  .page-footer {
-    padding: 100px 156px;
-  }
   .footer-container {
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100%;
     flex-wrap: nowrap;
     gap: 0;
@@ -1124,6 +1122,10 @@ input {
   letter-spacing: 0.02em;
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-addr-tel {
+  color: #4d5ae5;
 }
 
 .mobile-nav-link:hover,
