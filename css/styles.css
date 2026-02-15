@@ -577,6 +577,7 @@ input {
 @media screen and (min-width: 768px) {
   .team-list {
     column-gap: 24px;
+    row-gap: 64px;
   }
 }
 
