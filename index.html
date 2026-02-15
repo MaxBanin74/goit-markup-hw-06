@@ -585,86 +585,84 @@
           Leave your contacts and we will call you back
         </p>
         <form class="contacts-form" name="contacts-form">
-          <div class="contacts-box">
-            <div class="contacts-field-box">
-              <label class="contacts-label" for="user-name">Name</label>
-              <div class="contacts-field-wrapper">
-                <input
-                  type="text"
-                  class="contacts-field"
-                  name="user-name"
-                  id="user-name"
-                  required
-                  autofocus
-                />
-                <svg class="contacts-field-icon" width="18" height="24">
-                  <use href="./images/icons.svg#icon-name"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="contacts-field-box">
-              <label class="contacts-label" for="user-tel">Phone</label>
-              <div class="contacts-field-wrapper">
-                <input
-                  type="tel"
-                  class="contacts-field"
-                  name="user-tel"
-                  id="user-tel"
-                  required
-                />
-                <svg class="contacts-field-icon" width="18" height="24">
-                  <use href="./images/icons.svg#icon-tel"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="contacts-field-box">
-              <label class="contacts-label" for="user-mail">Email</label>
-              <div class="contacts-field-wrapper">
-                <input
-                  type="email"
-                  class="contacts-field"
-                  name="user-mail"
-                  id="user-mail"
-                  required
-                />
-                <svg class="contacts-field-icon" width="18" height="24">
-                  <use href="./images/icons.svg#icon-mail"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="contacts-comment-box">
-              <label class="contacts-label" for="user-comment">Comment</label>
-              <textarea
-                class="contacts-comment"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                required
-              ></textarea>
-            </div>
-            <div class="contacts-checkbox">
+          <div class="contacts-field-box">
+            <label class="contacts-label" for="user-name">Name</label>
+            <div class="contacts-field-wrapper">
               <input
-                type="checkbox"
-                class="contacts-check visually-hidden"
-                name="user-check"
-                id="user-check"
-                value="accept"
+                type="text"
+                class="contacts-field"
+                name="user-name"
+                id="user-name"
+                required
+                autofocus
+              />
+              <svg class="contacts-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contacts-field-box">
+            <label class="contacts-label" for="user-tel">Phone</label>
+            <div class="contacts-field-wrapper">
+              <input
+                type="tel"
+                class="contacts-field"
+                name="user-tel"
+                id="user-tel"
                 required
               />
-              <label for="user-check" class="contacts-check-label">
-                <span class="contacts-check-custom">
-                  <svg class="contacts-check-icon" width="10" height="8">
-                    <use href="./images/icons.svg#icon-check"></use>
-                  </svg>
-                </span>
-                <span class="contacts-label-text">
-                  I accept the terms and conditions of the
-                  <a class="contacts-label-link" href="">Privacy Policy</a>
-                </span>
-              </label>
+              <svg class="contacts-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>
             </div>
-            <button type="submit" class="contacts-button">Send</button>
           </div>
+          <div class="contacts-field-box">
+            <label class="contacts-label" for="user-mail">Email</label>
+            <div class="contacts-field-wrapper">
+              <input
+                type="email"
+                class="contacts-field"
+                name="user-mail"
+                id="user-mail"
+                required
+              />
+              <svg class="contacts-field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contacts-comment-box">
+            <label class="contacts-label" for="user-comment">Comment</label>
+            <textarea
+              class="contacts-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              required
+            ></textarea>
+          </div>
+          <div class="contacts-checkbox">
+            <input
+              type="checkbox"
+              class="contacts-check visually-hidden"
+              name="user-check"
+              id="user-check"
+              value="accept"
+              required
+            />
+            <label for="user-check" class="contacts-check-label">
+              <span class="contacts-check-custom">
+                <svg class="contacts-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              <span class="contacts-label-text">
+                I accept the terms and conditions of the
+                <a class="contacts-label-link" href="">Privacy Policy</a>
+              </span>
+            </label>
+          </div>
+          <button type="submit" class="contacts-button">Send</button>
         </form>
       </div>
     </div>

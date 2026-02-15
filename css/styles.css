@@ -191,7 +191,7 @@ input {
   display: none;
 }
 
-.header-addr-list {
+.header-addr {
   display: none;
 }
 
@@ -258,6 +258,7 @@ input {
   }
 
   .header-addr {
+    display: block;
     padding: 16px 0;
     margin-left: auto;
   }
@@ -649,9 +650,8 @@ input {
     column-gap: 24px;
     row-gap: 72px;
   }
-  .portfolio-image {
-    width: 356px;
-    height: 300px;
+  .portfolio-item {
+    max-width: 356px;
   }
 }
 
@@ -662,10 +662,8 @@ input {
   .portfolio-list {
     row-gap: 48px;
   }
-  .portfolio-image {
-    width: 360px;
-  }
   .portfolio-item {
+    max-width: 360px;
     box-shadow: none;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -894,10 +892,6 @@ input {
 }
 
 .contacts-form {
-  margin-top: 16px;
-}
-
-.contacts-box {
   border-radius: 4px;
   margin-top: 16px;
 }
