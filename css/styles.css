@@ -471,6 +471,10 @@ input {
   row-gap: 72px;
 }
 
+.features-item {
+  width: 100%;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 36px;
@@ -871,6 +875,7 @@ input {
 @media screen and (min-width: 768px) {
   .contacts-modal {
     width: 408px;
+    padding: 24px 24px;
   }
 }
 
