@@ -350,8 +350,7 @@ input {
   }
 }
 
-@media screen and (max-width: 767px) and (resolution: 2dppx),
-  screen and (max-width: 767px) and (resolution: 3dppx) {
+@media screen and (max-width: 767px) and (min-resolution: 2dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
@@ -373,8 +372,7 @@ input {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 2dppx),
-  screen and (min-width: 768px) and (max-width: 1157px) and (resolution: 3dppx) {
+@media screen and (min-width: 768px) and (max-width: 1157px) and (min-resolution: 2dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
@@ -396,8 +394,7 @@ input {
   }
 }
 
-@media screen and (min-width: 1158px) and (resolution: 2dppx),
-  screen and (min-width: 1158px) and (resolution: 3dppx) {
+@media screen and (min-width: 1158px) and (min-resolution: 2dppx) {
   .main-section {
     background-image: linear-gradient(
         to bottom,
